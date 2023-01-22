@@ -81,10 +81,10 @@
           $fileName = basename($_FILES["file1"]["name"]); 
           $imageTemp = $_FILES["file1"]["tmp_name"];
           // Valid extension
-          $valid_ext = array('png','jpeg','jpg');
+           $valid_ext = array('png','jpeg','jpg');
 
           // Location
-          $location =  "images/".$fileName;;
+           $location =  "images/".$fileName;;
 
           // file extension
            $file_extension = pathinfo($location, PATHINFO_EXTENSION);
